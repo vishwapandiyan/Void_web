@@ -197,4 +197,4 @@ def handle_join(data):
 # -------------------------------
 if __name__ == '__main__':
     print("Flask backend running on http://0.0.0.0:5000")
-    socketio.run(app, host='0.0.0.0', port=5000, debug=True, allow_unsafe_werkzeug=True)
+    socketio.run(app, host='0.0.0.0', port=5001, debug=True, allow_unsafe_werkzeug=True)
