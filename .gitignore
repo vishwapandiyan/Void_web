@@ -43,3 +43,11 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Backend (Python/Flask) - Don't push backend code
+lib/backend/venv/
+lib/backend/uploads/
+lib/backend/__pycache__/
+*.pyc
+*.pyo
+*.pyd
